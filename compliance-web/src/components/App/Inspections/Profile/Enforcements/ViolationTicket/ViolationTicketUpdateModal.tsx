@@ -44,6 +44,7 @@ const statusOptions: StatusOption[] = [
   { id: ViolationTicketStatus.ISSUED, name: "Issued" },
   { id: ViolationTicketStatus.PAID, name: "Paid" },
   { id: ViolationTicketStatus.DISPUTED, name: "Disputed" },
+  { id: ViolationTicketStatus.DEEMED_GUILTY, name: "Deemed Guilty" },
 ];
 
 type ViolationTicketUpdateModalProps = {

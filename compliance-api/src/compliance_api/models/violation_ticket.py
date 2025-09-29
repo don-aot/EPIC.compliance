@@ -19,6 +19,7 @@ class ViolationTicketStatusEnum(enum.Enum):
     ISSUED = "Issued"
     PAID = "Paid"
     DISPUTED = "Disputed"
+    DEEMED_GUILTY = "DEEMED_GUILTY"
 
 
 class ViolationTicketInspectionRequirementMap(BaseModelVersioned):
